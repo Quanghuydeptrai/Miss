@@ -1,0 +1,498 @@
+[
+  {
+    "type": "SpysMe",
+    "method": "http"
+  },
+  {
+    "type": "SpysMe",
+    "method": "socks"
+  },
+  {
+    "type": "ProxyScrape",
+    "method": "http",
+    "params": {
+      "timeout": 1000,
+      "country": "All"
+    }
+  },
+  {
+    "type": "ProxyScrape",
+    "method": "socks4",
+    "params": {
+      "timeout": 1000,
+      "country": "All"
+    }
+  },
+  {
+    "type": "ProxyScrape",
+    "method": "socks5",
+    "params": {
+      "timeout": 1000,
+      "country": "All"
+    }
+  },
+  {
+    "type": "GeoNode",
+    "method": "http",
+    "params": {
+      "limit": "500"
+    }
+  },
+  {
+    "type": "GeoNode",
+    "method": "socks",
+    "params": {
+      "limit": "500"
+    }
+  },
+  {
+    "type": "GitHub",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt"
+  },
+  {
+    "type": "GitHub",
+    "method": "socks5",
+    "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks5.txt"
+  },
+  {
+    "type": "GitHub",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt"
+  },
+  {
+    "type": "GitHub",
+    "method": "socks4",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt"
+  },
+  {
+    "type": "GitHub",
+    "method": "socks5",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt"
+  },
+  {
+    "type": "GitHub",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt"
+  },
+  {
+    "type": "GitHub",
+    "method": "socks4",
+    "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt"
+  },
+  {
+    "type": "GitHub",
+    "method": "socks5",
+    "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://www.proxy-list.download/api/v1/get?type=http"
+  },
+  {
+    "type": "Generic",
+    "method": "https",
+    "url": "https://www.proxy-list.download/api/v1/get?type=https"
+  },
+  {
+    "type": "Generic",
+    "method": "socks4",
+    "url": "https://www.proxy-list.download/api/v1/get?type=socks4"
+  },
+  {
+    "type": "Generic",
+    "method": "socks5",
+    "url": "https://www.proxy-list.download/api/v1/get?type=socks5"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "http://alexa.lr2b.com/proxylist.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "http://rootjazz.com/proxies/proxies.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "http://worm.rip/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://api.openproxylist.xyz/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://api.proxyscrape.com/?request=displayproxies&proxytype=http&timeout=5000"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=3000&country=all&ssl=all&anonymity=all"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://api.proxyscrape.com/v2/?request=getproxies&protocol=https&timeout=3000&country=all&ssl=all&anonymity=all"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://proxifly.dev/free-proxy-list.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://proxylist.geonode.com/api/proxy-list?limit=500&sort_by=lastChecked&format=textplain"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://proxylist.geonode.com/api/proxy-list?limit=50000&page=1&sort_by=lastChecked&sort_type=desc"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://proxyspace.pro/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Anonym0usWork1221/free-proxies/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_HTTP.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/HTTP.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/ErcanUygu/Free-Proxy-List/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Hyperclaw7/Proxy-List/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/JetKai/proxy-list/main/online-proxies/txt/proxies-http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/KingToom/proxy-list/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/KorexT/Proxy-List/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Mr-Zal/Proxy-List/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Muhammetsezer/Proxy-List/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/ObcbO/getproxy/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/OfficialPutuid/KangProxy/KangProxy/http/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/OfficialPutuid/KangProxy/main/http/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/ParserPP/proxy-list/main/proxies.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Proxy-list-to/proxy-list/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/RXNET-ORG/proxylist/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/RDavydov/proxy-list/main/proxies/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Saisuiu/Lionkings-Http-Proxys-Proxies/main/free.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/ShiftyTR/proxy-list/master/proxy.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Sunny9577/proxy-list/master/proxies.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Sunny9577/proxy-scraper/master/proxies.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/https.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/TuanMinPay/live-proxy/873c59a93551725a21d83fe422ee9855c55904a6/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/UserR3X/proxy-list/main/online/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Vakhov/fresh-proxy-list/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Volodichev/proxy-list/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Volkovoy1/Proxy-list/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Yemix/proxy-list/main/proxy-list/data.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Yemixzy/proxy-list/main/proxy-list/data.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Yuceltoluyag/GoodProxy/main/raw.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/aslisk/proxyhttps/main/https.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/caliph71/proxylist/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/caliphdev/Proxy-List/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/constverum/ProxyBroker/master/docs/examples/proxy_list.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/free-proxy-list/proxy-daily-http/main/proxy-list.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/hendrikbgr/Free-Proxy-Repo/master/proxy_list.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/hookzof/socks5_list/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/im-razvan/proxy-list/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/mertguven/proxy-list/main/proxy-list/data.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/mishakorzik/Free-Proxy/main/proxy.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/mmok/proxy-list/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/opsxcq/proxy-list/master/proxy.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/parserpp/proxy-list/main/proxies.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/prxchk/proxy-list/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/proxybot/proxies/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/rosemaryr/proxy-list/main/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/rxnets/proxylist/master/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://raw.githubusercontent.com/webshare-io/proxy-list/main/proxies-http.txt"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://www.free-proxy-list.net/download?type=http"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://www.proxy-list.download/api/v1/get?type=http"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://www.proxy-list.download/api/v1/get?type=https"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://openproxy.space/list/http"
+  },
+  {
+    "type": "Generic",
+    "method": "http",
+    "url": "https://openproxy.space/list/https"
+  }
+]
